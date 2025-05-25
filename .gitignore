@@ -1,0 +1,43 @@
+# Ignore node dependencies
+node_modules/
+
+# Truffle build directory
+build/
+
+# Truffle artifacts
+*.log
+*.pid
+*.seed
+
+# dotenv environment variables
+.env
+
+# VSCode or JetBrains IDE settings
+.vscode/
+.idea/
+
+# Mac and Linux system files
+.DS_Store
+*.swp
+*~
+
+# Coverage output (if using solidity-coverage)
+coverage/
+coverage.json
+
+# NPM debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Windows system files
+Thumbs.db
+
+# Ganache workspace files (if applicable)
+*.chain
+*.db
+*.lock
+
+# ABI and compiled JSON if moved outside build/
+# (Uncomment if you export ABIs to Django manually and don’t want them tracked)
+# src/abis/
